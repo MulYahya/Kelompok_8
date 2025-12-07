@@ -1,4 +1,4 @@
-# Cara Build & Run Proyek AR Hewan (Unity + AR Foundation)
+# Cara Build & Run Proyek AR VR Animal Sound (Unity + AR Foundation)
 
 Untuk menjalankan proyek ini, beberapa aset dan pengaturan awal perlu disiapkan sebelum proses build. Pertama, unduh seluruh resource yang diperlukan, yaitu prefab **Anchor**, file suara hewan, serta script pendukung seperti *AnimalBehavior* dan *TouchManager*. Setelah semua aset tersedia di folder *Assets*, buat sebuah GameObject bernama **AR Session** dan tambahkan komponen *AR Session* serta *AR Input Manager* agar fitur AR dapat berjalan. Selanjutnya, buat GameObject baru bernama **XR Origin (Mobile)**, lalu tambahkan komponen **AR Tracked Image Manager**. Pada bagian *Reference Image Library*, masukkan aset **Anchor** sebagai marker yang akan dilacak untuk menampilkan hewan 3D.
 
